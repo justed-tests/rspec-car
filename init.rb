@@ -1,16 +1,15 @@
 require_relative 'lib/car'
-
 puts
 puts 'Enter info about car to purchase'
 puts
 
-print 'Make'
+print 'Make: '
 make = gets.chomp
 
-print 'Year'
+print 'Year: '
 year = gets.chomp
 
-print 'Color'
+print 'Color: '
 color = gets.chomp
 
 car = Car.new(make: make, year: year, color: color)

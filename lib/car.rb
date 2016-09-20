@@ -12,7 +12,7 @@ class Car
   end
 
   def self.colors
-    %w(red black blue green)
+    %w(blue black red green)
   end
 
   def full_name
